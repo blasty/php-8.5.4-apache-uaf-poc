@@ -1,0 +1,1 @@
+LoadModule php_module /opt/php-uaf-lab/build/php-8.5.4-apache-clean/libs/libphp.so

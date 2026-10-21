@@ -1,0 +1,11 @@
+#! /bin/sh
+#
+# Created by configure
+
+CFLAGS='-O0 -g3' \
+'./configure' \
+'--disable-all' \
+'--with-apxs2=/usr/bin/apxs2' \
+'--enable-session' \
+'--prefix=/opt/php-uaf-lab/php-8.5.4-apache-clean' \
+"$@"

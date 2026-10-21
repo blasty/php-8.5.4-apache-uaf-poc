@@ -1,0 +1,9 @@
+services:
+  php-apache:
+    build: .
+    container_name: php-uaf-apache-repro
+    ports:
+      - "127.0.0.1:18086:80"
+    cap_add:
+      - SYS_PTRACE
+    restart: "no"
